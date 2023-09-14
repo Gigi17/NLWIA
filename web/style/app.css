@@ -1,0 +1,29 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > h1 {
+  /*Para selecionar um elemento pelo id coloca o # antes do nome. O sinal de > é para garantir que vai pegar o h1, que é filho do elemento app.*/
+  color: #996dff;
+  margin-top: -5px; /*Quando usa número negativo é para tirar.*/
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 64px;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+  margin-top: -5px;
+}
+
+#app .placeholder {
+  /*Criando classes, é usada quando queremos reaproveitar em um ou mais elementos.*/
+  color: #7c7c8a;
+  user-select: none; /*Serve para não conseguir selecionar um determinado elemento.*/
+}

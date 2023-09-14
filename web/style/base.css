@@ -1,0 +1,23 @@
+body {
+  margin: 0; /*espaçamento externo.*/
+  padding: 0; /*espaçamento interno.*/
+
+  box-sizing: border-box; /*quando usa espaçamento é para não influenciar no tamanho total das coisas.*/
+  background-color: #121214;
+  color: #fff;
+
+  width: 100%;
+  height: 100vh; /*altura da tela.*/
+
+  display: flex; /*quando coloca o display significa que tudo o que tem dentro vai se comportar como se fossem caixas, de forma flexíveis.*/
+  flex-direction: column; /*Column para que cada um fique embaixo da outra.*/
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+button,
+input {
+  /*Os separados por vírgula é quando quer selecionar mais de uma tag/elemento para aplicar a mesma regra visual.*/
+  font-family: "Roboto", sans-serif; /*O sans-serif é uma alternativa para se o roboto não carregar.*/
+}
